@@ -1,0 +1,18 @@
+$networks: github '\eab1'#6441a5,
+           facebook '\e603'#3b5998,
+           twitter '\e618'#00b0ed,
+           instagram '\e604'#C13584,
+           linkedin '\eac9'#0077b5;
+
+@each $network in $networks {
+    .icon-#{nth($network, 1)} {
+        &:after {
+            content: '#{nth($network, 2)}';
+        }
+
+        &:hover:before,
+        &:focus:before {
+            background: nth($network, 3);
+        }
+    }
+}
