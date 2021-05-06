@@ -10,7 +10,7 @@
     &__logo {
         width: 15rem;
         height: auto;
-        transition: all 1.5s ease-out;
+        transition: all 1.5s;
 
         &:hover{
             transform: rotateY(360deg);

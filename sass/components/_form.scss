@@ -78,12 +78,9 @@
             height: 1.3rem;
             border-radius: 50%;
             background-color: $color-primary;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
             opacity: 0;
             transition: all 0.2s;
+            @include absCenter;
         }
     }
     &__radio-input:checked ~ &__radio-label &__radio-button::after {
