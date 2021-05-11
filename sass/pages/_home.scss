@@ -7,6 +7,10 @@
         padding: 20rem 0;
     }
 
+    @include respond(phone) {
+        margin-top: -14vh;
+    }
+
 }
 
 .section-features{
