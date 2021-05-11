@@ -1,5 +1,5 @@
 # Natours
-Hello everyone, This repository consists of my code for Natours Project, which I have made using Advanced CSS & Sass.
+Hello everyone, This repository consists of my code for Natours Project, which I have made using Advanced CSS & SASS.
 
 The webpage is hosted on Netlify at:
 https://ps09-natours.netlify.app/
